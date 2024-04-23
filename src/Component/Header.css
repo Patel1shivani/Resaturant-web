@@ -1,0 +1,29 @@
+.ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ul li {
+    margin: 0px 20px;
+  }
+  .ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .active {
+    color: goldenrod !important;
+    font-weight: bold !important;
+  }
+  /* mobile view */
+  .ul1 {
+    list-style: none;
+  }
+  .ul1 li {
+    margin-top: 20px;
+  }
+  .ul1 li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+  }
